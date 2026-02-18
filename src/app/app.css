@@ -1,0 +1,101 @@
+.container {
+  max-width: 75%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.select {
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.add {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.selectlist {
+  width: 80px;
+  margin-left: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.remove {  
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #d32f2f;
+  border: 0.25px solid #d32f2f;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+h2 {
+  margin: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.column {
+  text-align: center;
+  flex: 1;
+  min-width: 0;
+  background: #e9ecef;
+  padding: 10px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.taskrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.taskname {
+  flex: 1;
+  word-break: break-word;
+}
+
+.column h2 {
+  text-align: center;
+}
